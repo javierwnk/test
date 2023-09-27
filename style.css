@@ -22,11 +22,11 @@ header nav ul {
     list-style-type: none;
 }
 .barraNavegacion {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: rgb(250, 241, 230);
+    background-color: rgb(250, 241, 230) !important;
     text-decoration: none;
+}
+.navbar-brand {
+    margin: 0px 24px;
 }
 .linkPestania {
     text-decoration: none;
@@ -35,6 +35,10 @@ header nav ul {
 }
 .transparent-header {
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.transparent-header p {
+    margin: 0;
 }
 header section nav h1 {
     display: none;
@@ -255,15 +259,24 @@ footer div a {
 .imagenRrhh {
     background-image: url(img/rrhh.jpg);
 }
-.formulario {
-    height: 350px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-evenly;
-    margin-top: 20px;
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 64px 0;
     font-size: 20px;
+}
+
+.enviar {
+    width: 100%;
+}
+
+.aviso {
+    font-size: 12px;
+}
+
+.aviso span{
+    font-weight: 900;
 }
 
 /**** FIN RRHH.HTML ****/
@@ -291,9 +304,6 @@ footer div a {
 /* EN COMUN ENTRE LINKS */
 
 .tituloMainHeader {
-    position: absolute;
-    top: 170px;
-    left: 120px;
     font-weight: 700;
     font-size: 50px;
 }
@@ -311,5 +321,28 @@ footer div a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;    
+    height: 400px; 
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
 }
+
+@media all and (max-width: 570px) {
+/**** RRHH.HTML ****/
+
+
+form {
+    width: 90%;
+}
+
+/**** FIN RRHH.HTML ****/
+
+.tituloMainHeader {
+
+    top: 150px;
+    left: 120px;
+    font-size: 3rem;
+}
+
+} /* Fin media querie */
