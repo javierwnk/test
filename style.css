@@ -1,0 +1,307 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** INDEX.HTML ****/
+
+/* HEADER */
+
+.llama {
+    margin: 0px 10px;
+}
+header section div p {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+header nav ul {
+    list-style-type: none;
+}
+.barraNavegacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(250, 241, 230);
+    text-decoration: none;
+}
+.linkPestania {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.transparent-header {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+header section nav h1 {
+    display: none;
+}
+header section nav ul li {
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* FIN HEADER */
+
+/* MAIN */
+
+main {
+    background-color: #FDFAF6;
+}
+.logoPollito {
+    width: 60px;
+}
+
+/* PARRAFO */
+
+.parrafoInspiracional {
+    font-style: italic;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 70px 250px;
+}
+
+/* FIN PARRAFO */
+
+/* IMAGEN FONDO PORTADA */
+
+.imagenPortadaIndex {
+    background-image: url(img/nuevaportada.PNG);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+/* FIN IMAGEN FONDO PORTADA */
+
+/* CUADRO DE IMAGENES */
+
+.imagenCuadroImaganes {
+    width: 600px;
+}
+
+.parImagenes {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 72.5%;
+    margin-top: 10px;
+}
+.cuatroImagenes {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+} 
+.cuatroImagenes {
+    display: grid;
+    grid-template-columns: 10% 35% 10% 35% 10%;
+    grid-template-rows: 50% 50%;
+}
+.textoAhorra {
+    position: absolute;
+    top: 1686px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 600px;
+    height: 100px;
+    color: black;
+}
+
+/* FIN CUADRO IMAGENES */
+
+/* ACERCA DE */
+
+.bannerAcercaDe {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 80px;
+    background-color: rgb(228, 239, 231);
+}
+.compraProductosDeCalidad {
+    padding: 10px;
+    width: 33%;
+    font-size: 20px;
+}
+.empresaFamiliar {
+    padding: 10px;
+    width: 33%;
+    border-left: solid black 3px;
+    border-right: solid black 3px;
+    font-size: 20px;
+}
+.nuestrosMediosDePago {
+    width: 33%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* FIN ACERCA DE */
+
+/* TESTIMONIOS */
+
+.clientesFelices {
+    margin-top: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.tituloTestimonios {
+    text-align: center;
+}
+.cajaTestimonio {
+    display: flex;
+    width: 200px;
+    background-color: rgb(228, 239, 231);
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.textosCajas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.cajasTestimonios2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    width: 70%;
+    height: 200px;
+}
+.cajasTestimonios {
+    display: flex;
+    justify-content: center;
+}
+/* FIN TESTIMONIOS */
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(6, 68, 32);
+    padding: 30px;
+}
+.logoWhatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.footerElementos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer div a {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+/* FIN FOOTER */
+
+/**** FIN INDEX.HTML ****/
+
+/**** SUCURSALES.HTML ****/
+
+.imagenSucursales {
+    background-image: url(img/sucursales.jpg);
+}
+.datosSucursalLaPampa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150px;
+    padding: 100px;
+    list-style-type: none;
+}
+
+/**** FIN SUCURSALES.HTML ****/
+
+/**** NOSOTROS.HTML ****/
+
+.imagenHistoria {
+    background-image: url(img/historia.jpg);
+}
+.parrafoHistoria {
+    display: flex;
+    justify-content: center;
+    margin: 200px 300px;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/**** FIN NOSOTROS.HTML ****/
+
+/**** RRHH.HTML ****/
+
+.imagenRrhh {
+    background-image: url(img/rrhh.jpg);
+}
+.formulario {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/**** FIN RRHH.HTML ****/
+
+/**** PEDIDOS.HTML ****/
+
+.imagenPedidos {
+    background-image: url(img/pedidos.jpg);
+}
+.tamanioImagenPedidos {
+    width: 300px;
+}
+.separacionImagenesProductos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+/**** FIN PEDIDOS.HTML ****/
+
+/* EN COMUN ENTRE LINKS */
+
+.tituloMainHeader {
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.mainHeader {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+}
+.imagenMainHeader {
+    color: white;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;    
+}
