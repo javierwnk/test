@@ -85,23 +85,31 @@ main {
     width: 600px;
 }
 
-.parImagenes {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    width: 72.5%;
-    margin-top: 10px;
-}
-.cuatroImagenes {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-} 
+
 .cuatroImagenes {
     display: grid;
-    grid-template-columns: 10% 35% 10% 35% 10%;
-    grid-template-rows: 50% 50%;
+    grid-template-areas: "imagenA imagenB"
+    "imagenC imagenD";
+    gap: 12px;
+    justify-content: center;    
+} 
+
+.imagenA {
+    grid-area: imagenA;
 }
+
+.imagenB {
+    grid-area: imagenB;
+}
+
+.imagenC {
+    grid-area: imagenC;
+}
+
+.imagenD {
+    grid-area: imagenD;
+}
+
 .textoAhorra {
     position: absolute;
     top: 1686px;
