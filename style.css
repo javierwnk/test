@@ -231,7 +231,7 @@ footer div a {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 40px;
+    padding: 80px 40px;
 }
 .card-body {
     margin-bottom: 0px;
@@ -344,11 +344,19 @@ form {
 
 /**** FIN RRHH.HTML ****/
 
-/**** HISTORIA.HTML ****/
+/**** SUCURSALES.HTML ****/
 
+.cuadroSucursales {
+    flex-direction: column;
+    padding: 80px 20px;
+    margin: 0 auto;
+}
+.card {
+    margin: 0 auto;
+    width: 90% !important;
+}
 
-
-/**** FIN HISTORIA.HTML ****/
+/**** FIN SUCURSALES.HTML ****/
 
 
 .tituloMainHeader {
