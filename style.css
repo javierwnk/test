@@ -229,13 +229,16 @@ footer div a {
 }
 .datosSucursalLaPampa {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    justify-content: space-evenly;
-    height: 150px;
-    padding: 100px;
     list-style-type: none;
 }
-
+.sucursalLaPampa1 {
+    padding: 50px 50px 25px;
+}
+.sucursalLaPampa2 {
+    padding: 25px 50px 50px;
+}
 /**** FIN SUCURSALES.HTML ****/
 
 /**** NOSOTROS.HTML ****/
@@ -245,7 +248,7 @@ footer div a {
 }
 .parrafoHistoria {
     display: flex;
-    justify-content: center;
+    justify-content: center
     margin: 200px 300px;
     font-size: 30px;
     font-weight: 700;
@@ -331,12 +334,18 @@ form {
 @media all and (max-width: 570px) {
 /**** RRHH.HTML ****/
 
-
 form {
     width: 90%;
 }
 
 /**** FIN RRHH.HTML ****/
+
+/**** HISTORIA.HTML ****/
+
+
+
+/**** FIN HISTORIA.HTML ****/
+
 
 .tituloMainHeader {
 
@@ -344,5 +353,17 @@ form {
     left: 120px;
     font-size: 3rem;
 }
+
+/**** HISTORIA.HTML ****/
+
+.parrafoHistoria {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+/**** FIN HISTORIA.HTML ****/
+
 
 } /* Fin media querie */
