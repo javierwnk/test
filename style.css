@@ -248,7 +248,7 @@ footer div a {
 }
 .parrafoHistoria {
     display: flex;
-    justify-content: center
+    justify-content: center;
     margin: 200px 300px;
     font-size: 30px;
     font-weight: 700;
