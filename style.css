@@ -227,18 +227,23 @@ footer div a {
 .imagenSucursales {
     background-image: url(img/sucursales.jpg);
 }
-.datosSucursalLaPampa {
+.cuadroSucursales {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+.card-body {
+    margin-bottom: 0px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     list-style-type: none;
 }
-.sucursalLaPampa1 {
-    padding: 50px 50px 25px;
-}
-.sucursalLaPampa2 {
-    padding: 25px 50px 50px;
-}
+
 /**** FIN SUCURSALES.HTML ****/
 
 /**** NOSOTROS.HTML ****/
