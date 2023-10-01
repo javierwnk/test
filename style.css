@@ -254,7 +254,7 @@ footer div a {
 .parrafoHistoria {
     display: flex;
     justify-content: center;
-    margin: 200px 300px;
+    padding: 200px 300px;
     font-size: 30px;
     font-weight: 700;
     font-style: italic;
@@ -295,18 +295,17 @@ form {
     background-image: url(img/pedidos.jpg);
 }
 .tamanioImagenPedidos {
-    width: 300px;
+    width: 400px;
 }
 .separacionImagenesProductos {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    column-gap: 20px;
-    row-gap: 20px;
-}
-
+    padding-top: 120px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 52px;
+    width: 70%;
+    margin: 0 auto;
+    } 
 /**** FIN PEDIDOS.HTML ****/
 
 /* EN COMUN ENTRE LINKS */
