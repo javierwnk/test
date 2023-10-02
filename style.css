@@ -204,18 +204,25 @@ footer {
 }
 .logoWhatsapp {
     position: fixed;
-    bottom: 30px;
+    bottom: 100px;
     right: 30px;
 }
 .footerElementos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 }
 footer div a {
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 400;
     color: black;
     text-decoration: none;
+}
+.encontranos {
+    font-weight: 600;
+}
+.propiedadesTextoFooter {
+    color: black;
 }
 
 /* FIN FOOTER */
@@ -330,7 +337,20 @@ form {
 }
 
 @media all and (max-width: 570px) {
-/**** RRHH.HTML ****/
+    /**** FOOTER ****/
+
+    .footerElementos {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .textosPrimerContenedorFooter {
+        display: none;
+    }
+
+    /**** FIN FOOTER ****/
+
+    /**** RRHH.HTML ****/
 
 form {
     width: 90%;
