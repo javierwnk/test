@@ -116,7 +116,7 @@ main {
 
 .textoAhorra {
     position: absolute;
-    top: 1686px;
+    top: 1670px;
     text-align: center;
     font-size: 30px;
     font-weight: 500;
@@ -138,6 +138,8 @@ main {
     text-align: center;
     padding: 80px;
     background-color: rgb(228, 239, 231);
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
 }
 .compraProductosDeCalidad {
     padding: 10px;
@@ -177,6 +179,9 @@ main {
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .textosCajas {
     display: flex;
@@ -316,6 +321,9 @@ form {
 /**** FIN PEDIDOS.HTML ****/
 
 /* EN COMUN ENTRE LINKS */
+main {
+    padding-bottom: 70px;
+}
 
 .tituloMainHeader {
     font-weight: 700;
