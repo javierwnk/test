@@ -86,7 +86,7 @@ main {
 /* CUADRO DE IMAGENES */
 
 .imagenCuadroImaganes {
-    width: 600px;
+    width: 100%;
 }
 
 
@@ -96,6 +96,8 @@ main {
     "imagenC imagenD";
     gap: 12px;
     justify-content: center;    
+    width: 95%;
+    margin: 0 auto;
 } 
 
 .imagenA {
@@ -113,6 +115,9 @@ main {
 .imagenD {
     grid-area: imagenD;
 }
+.imagenD a {
+    text-decoration: none;
+}
 
 .textoAhorra {
     position: absolute;
@@ -121,7 +126,7 @@ main {
     font-size: 30px;
     font-weight: 500;
     background-color: rgba(255, 255, 255, 0.5);
-    width: 600px;
+    width: 100%;
     height: 100px;
     color: black;
 }
@@ -344,7 +349,7 @@ main {
     text-align: center;
 }
 
-@media all and (max-width: 570px) {
+@media all and (max-width: 768px) {
     /**** FOOTER ****/
 
     .footerElementos {
@@ -360,6 +365,69 @@ main {
 
     /**** RRHH.HTML ****/
 
+        /**** INDEX.HTML ****/
+        main {
+            padding-bottom: 0px;
+        }
+        .imagenPortadaIndex {
+            height: 320px;
+        }
+        .parrafoInspiracional {
+            margin: 70px auto;
+            width: 90%;
+        }
+        .cuatroImagenes {
+            grid-template-areas: "imagenA"
+            "imagenB"
+            "imagenC"
+            "imagenD";
+        }
+        .imagenCuadroImaganes {
+            width: 90%;
+            margin: 0 auto;
+            display: block;
+        }
+        .textoAhorra {
+            top: -90px;
+            margin: 0 auto;
+            font-size: 18px;
+            height: 70px;
+            width: 90%;
+            position: relative;
+        }
+        .bannerAcercaDe {
+            margin-top: 0;
+            flex-direction: column;
+            align-items: center;
+            padding: 10%;
+            row-gap: 18px;
+        }
+        .compraProductosDeCalidad, .empresaFamiliar, .nuestrosMediosDePago {
+            width: 100%;
+        }
+        .empresaFamiliar {
+            border-left: 0;
+            border-right: 0;
+            border-top: solid black 3px;
+            border-bottom: solid black 3px;
+            padding: 18px;
+        }
+        .bannerAcercaDe p {
+            margin: 0;
+        }
+        .cajasTestimonios {
+            height: 520px;
+        }
+
+        .cajasTestimonios2 {
+            flex-direction: column;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px
+        }
+        /**** FIN INDEX.HTML ****/
+
 form {
     width: 90%;
 }
@@ -368,7 +436,7 @@ form {
 
 /**** SUCURSALES.HTML ****/
 
-.cuadroSucursales {
+.cuadroSucursales{
     flex-direction: column;
     padding: 80px 20px;
     margin: 0 auto;
@@ -393,8 +461,9 @@ form {
 .parrafoHistoria {
     display: flex;
     justify-content: center;
-    margin: 20px;
-    font-size: 25px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 10%;
 }
 
 /**** FIN HISTORIA.HTML ****/
