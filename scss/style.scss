@@ -73,7 +73,7 @@ main {
 /* IMAGEN FONDO PORTADA */
 
 .imagenPortadaIndex {
-    background-image: url(img/nuevaportada.PNG);
+    background-image: url(../img/nuevaportada.PNG);
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -242,7 +242,7 @@ footer div a {
 /**** SUCURSALES.HTML ****/
 
 .imagenSucursales {
-    background-image: url(img/sucursales.jpg);
+    background-image: url(../img/sucursales.jpg);
 }
 .cuadroSucursales {
     display: flex;
@@ -266,7 +266,7 @@ footer div a {
 /**** NOSOTROS.HTML ****/
 
 .imagenHistoria {
-    background-image: url(img/historia.jpg);
+    background-image: url(../img/historia.jpg);
 }
 .parrafoHistoria {
     display: flex;
@@ -282,7 +282,7 @@ footer div a {
 /**** RRHH.HTML ****/
 
 .imagenRrhh {
-    background-image: url(img/rrhh.jpg);
+    background-image: url(../img/rrhh.jpg);
 }
 
 form {
@@ -309,7 +309,7 @@ form {
 /**** PEDIDOS.HTML ****/
 
 .imagenPedidos {
-    background-image: url(img/pedidos.jpg);
+    background-image: url(../img/pedidos.jpg);
 }
 .tamanioImagenPedidos {
     width: 400px;
