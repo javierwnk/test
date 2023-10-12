@@ -7,10 +7,40 @@
 
 /**** INDEX.HTML ****/
 /* HEADER */
-.llama {
+header .transparent-header {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+header .logoPollito {
+  width: 60px;
+}
+header .barraNavegacion {
+  background-color: rgb(250, 241, 230) !important;
+  text-decoration: none;
+}
+header .navbar-brand {
+  margin: 0px 24px;
+}
+header .linkPestania {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+header .llama {
   margin: 0px 10px;
 }
-
+header p {
+  margin: 0;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul h1 {
+  display: none;
+}
+header nav ul li {
+  text-decoration: none;
+  margin: 10px;
+}
 header section div p {
   width: 100%;
   text-align: center;
@@ -18,78 +48,15 @@ header section div p {
   color: white;
 }
 
-header nav ul {
-  list-style-type: none;
-}
-
-.barraNavegacion {
-  background-color: rgb(250, 241, 230) !important;
-  text-decoration: none;
-}
-
-.navbar-brand {
-  margin: 0px 24px;
-}
-
-.linkPestania {
-  text-decoration: none;
-  font-size: 20px;
-  color: black;
-}
-
-.transparent-header {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.transparent-header p {
-  margin: 0;
-}
-
-header section nav h1 {
-  display: none;
-}
-
-header section nav ul li {
-  text-decoration: none;
-  margin: 10px;
-}
-
 /* FIN HEADER */
 /* MAIN */
 main {
   background-color: #FDFAF6;
 }
-
-.logoPollito {
-  width: 60px;
-}
-
-/* PARRAFO */
-.parrafoInspiracional {
-  font-style: italic;
-  font-size: 1.3rem;
-  text-align: center;
-  margin: 70px 250px;
-}
-
-/* FIN PARRAFO */
-/* IMAGEN FONDO PORTADA */
-.imagenPortadaIndex {
-  background-image: url(../img/nuevaportada.PNG);
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 650px;
-}
-
-/* FIN IMAGEN FONDO PORTADA */
-/* CUADRO DE IMAGENES */
-.imagenCuadroImaganes {
+main .imagenCuadroImaganes {
   width: 100%;
 }
-
-.cuatroImagenes {
+main .cuatroImagenes {
   display: grid;
   grid-template-areas: "imagenA imagenB" "imagenC imagenD";
   gap: 12px;
@@ -97,29 +64,23 @@ main {
   width: 95%;
   margin: 0 auto;
 }
-
-.imagenA {
+main .imagenA {
   grid-area: imagenA;
 }
-
-.imagenB {
+main .imagenB {
   grid-area: imagenB;
 }
-
-.imagenC {
+main .imagenC {
   grid-area: imagenC;
 }
-
-.imagenD {
+main .imagenD {
   grid-area: imagenD;
   position: relative;
 }
-
-.imagenD a {
+main .imagenD a {
   text-decoration: none;
 }
-
-.textoAhorra {
+main .textoAhorra {
   position: absolute;
   bottom: 0px;
   text-align: center;
@@ -129,10 +90,21 @@ main {
   width: 100%;
   color: black;
 }
-
-/* FIN CUADRO IMAGENES */
-/* ACERCA DE */
-.bannerAcercaDe {
+main .imagenPortadaIndex {
+  background-image: url(../img/nuevaportada.PNG);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+}
+main .parrafoInspiracional {
+  font-style: italic;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 70px 250px;
+}
+main .bannerAcercaDe {
   margin-top: 100px;
   display: flex;
   justify-content: center;
@@ -143,41 +115,33 @@ main {
   border-top: solid 1px black;
   border-bottom: solid 1px black;
 }
-
-.compraProductosDeCalidad {
+main .compraProductosDeCalidad {
   padding: 10px;
   width: 33%;
   font-size: 20px;
 }
-
-.empresaFamiliar {
+main .empresaFamiliar {
   padding: 10px;
   width: 33%;
   border-left: solid black 3px;
   border-right: solid black 3px;
   font-size: 20px;
 }
-
-.nuestrosMediosDePago {
+main .nuestrosMediosDePago {
   width: 33%;
   padding: 10px;
   font-size: 20px;
 }
-
-/* FIN ACERCA DE */
-/* TESTIMONIOS */
-.clientesFelices {
+main .clientesFelices {
   margin-top: 100px;
   height: 70px;
   display: flex;
   justify-content: center;
 }
-
-.tituloTestimonios {
+main .tituloTestimonios {
   text-align: center;
 }
-
-.cajaTestimonio {
+main .cajaTestimonio {
   display: flex;
   width: 200px;
   background-color: rgb(228, 239, 231);
@@ -188,58 +152,52 @@ main {
   border-radius: 10px;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
-
-.textosCajas {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.cajasTestimonios2 {
+main .cajasTestimonios2 {
   display: flex;
   justify-content: space-around;
   margin: 40px;
   width: 70%;
   height: 200px;
 }
-
-.cajasTestimonios {
+main .cajasTestimonios {
   display: flex;
   justify-content: center;
 }
+main .textosCajas {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
-/* FIN TESTIMONIOS */
 /* FOOTER */
 footer {
   background-color: rgb(6, 68, 32);
   padding: 30px;
-}
-
-.logoWhatsapp {
-  position: fixed;
-  bottom: 100px;
-  right: 30px;
-}
-
-.footerElementos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 }
-
-footer div a {
-  font-size: 14px;
-  font-weight: 400;
-  color: black;
-  text-decoration: none;
+footer .logoWhatsapp {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
 }
-
-.encontranos {
+footer .encontranos {
   font-weight: 600;
 }
-
-.propiedadesTextoFooter {
-  color: black;
+footer .propiedadesTextoFooter {
+  color: #FDFAF6;
+}
+footer div a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FDFAF6;
+  text-decoration: none;
+}
+footer .textosCajasFooter {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 /* FIN FOOTER */
@@ -321,21 +279,18 @@ form {
 main {
   padding-bottom: 70px;
 }
-
-.tituloMainHeader {
+main .tituloMainHeader {
   font-weight: 700;
   font-size: 50px;
 }
-
-.mainHeader {
+main .mainHeader {
   width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 400px;
 }
-
-.imagenMainHeader {
+main .imagenMainHeader {
   color: white;
   display: flex;
   flex-flow: column wrap;
@@ -354,27 +309,26 @@ main {
     display: none;
   }
   /**** FIN FOOTER ****/
-  /**** RRHH.HTML ****/
   /**** INDEX.HTML ****/
   main {
     padding-bottom: 0px;
   }
-  .imagenPortadaIndex {
+  main .imagenPortadaIndex {
     height: 320px;
   }
-  .parrafoInspiracional {
+  main .parrafoInspiracional {
     margin: 70px auto;
     width: 90%;
   }
-  .cuatroImagenes {
+  main .cuatroImagenes {
     grid-template-areas: "imagenA" "imagenB" "imagenC" "imagenD";
   }
-  .imagenCuadroImaganes {
+  main .imagenCuadroImaganes {
     width: 90%;
     margin: 0 auto;
     display: block;
   }
-  .textoAhorra {
+  main .textoAhorra {
     top: -90px;
     margin: 0 auto;
     font-size: 18px;
@@ -382,30 +336,30 @@ main {
     width: 90%;
     position: relative;
   }
-  .bannerAcercaDe {
+  main .bannerAcercaDe {
     margin-top: 0;
     flex-direction: column;
     align-items: center;
     padding: 10%;
     row-gap: 18px;
   }
-  .compraProductosDeCalidad, .empresaFamiliar, .nuestrosMediosDePago {
+  main .compraProductosDeCalidad, main .empresaFamiliar, main .nuestrosMediosDePago {
     width: 100%;
   }
-  .empresaFamiliar {
+  main .empresaFamiliar {
     border-left: 0;
     border-right: 0;
     border-top: solid black 3px;
     border-bottom: solid black 3px;
     padding: 18px;
   }
-  .bannerAcercaDe p {
+  main .bannerAcercaDe p {
     margin: 0;
   }
-  .cajasTestimonios {
+  main .cajasTestimonios {
     height: 520px;
   }
-  .cajasTestimonios2 {
+  main .cajasTestimonios2 {
     flex-direction: column;
     display: flex;
     justify-content: space-between;
@@ -413,6 +367,7 @@ main {
     gap: 20px;
   }
   /**** FIN INDEX.HTML ****/
+  /**** RRHH.HTML ****/
   form {
     width: 90%;
   }
