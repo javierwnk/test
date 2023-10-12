@@ -1,3 +1,23 @@
+.flex-center, footer .textosCajasFooter, main .textosCajas, main .cajasTestimonios, main .clientesFelices, main .bannerAcercaDe, .parrafoHistoria, .card, .cuadroSucursales, main .imagenMainHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.widthPaddingAcercaDe, main .nuestrosMediosDePago, main .empresaFamiliar, main .compraProductosDeCalidad {
+  width: 33%;
+  padding: 10px;
+}
+
+main .bannerAcercaDe {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 80px;
+  background-color: rgb(228, 239, 231);
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -21,9 +41,7 @@ main .mainHeader {
 }
 main .imagenMainHeader {
   color: white;
-  display: flex;
   flex-flow: column wrap;
-  justify-content: center;
   text-align: center;
 }
 
@@ -39,8 +57,6 @@ main .imagenMainHeader {
 }
 
 .cuadroSucursales {
-  display: flex;
-  justify-content: center;
   gap: 20px;
   padding: 80px 40px;
 }
@@ -50,8 +66,6 @@ main .imagenMainHeader {
 }
 
 .card {
-  display: flex;
-  justify-content: center;
   text-align: center;
   align-items: center;
   list-style-type: none;
@@ -73,8 +87,6 @@ main .imagenMainHeader {
 }
 
 .parrafoHistoria {
-  display: flex;
-  justify-content: center;
   padding: 200px 300px;
   font-size: 30px;
   font-weight: 700;
@@ -83,8 +95,6 @@ main .imagenMainHeader {
 
 @media all and (max-width: 768px) {
   .parrafoHistoria {
-    display: flex;
-    justify-content: center;
     margin: 0 auto;
     font-size: 18px;
     padding: 10%;
@@ -185,39 +195,20 @@ main .parrafoInspiracional {
   text-align: center;
   margin: 70px 250px;
 }
-main .bannerAcercaDe {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  text-align: center;
-  padding: 80px;
-  background-color: rgb(228, 239, 231);
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
-}
 main .compraProductosDeCalidad {
-  padding: 10px;
-  width: 33%;
   font-size: font-size 20px;
 }
 main .empresaFamiliar {
-  padding: 10px;
-  width: 33%;
   border-left: solid black 3px;
   border-right: solid black 3px;
   font-size: font-size 20px;
 }
 main .nuestrosMediosDePago {
-  width: 33%;
-  padding: 10px;
   font-size: font-size 20px;
 }
 main .clientesFelices {
   margin-top: 100px;
   height: 70px;
-  display: flex;
-  justify-content: center;
 }
 main .tituloTestimonios {
   text-align: center;
@@ -240,13 +231,7 @@ main .cajasTestimonios2 {
   width: 70%;
   height: 200px;
 }
-main .cajasTestimonios {
-  display: flex;
-  justify-content: center;
-}
 main .textosCajas {
-  display: flex;
-  justify-content: center;
   text-align: center;
 }
 
@@ -275,8 +260,6 @@ footer div a {
   text-decoration: none;
 }
 footer .textosCajasFooter {
-  display: flex;
-  justify-content: center;
   text-align: center;
 }
 

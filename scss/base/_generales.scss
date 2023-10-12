@@ -19,9 +19,8 @@ main {
     }
     .imagenMainHeader {
         color: $colorLetrasClaras;
-        display: flex;
+        @extend .flex-center;
         flex-flow: column wrap;
-        justify-content: center;
         text-align: center;
     }
 }

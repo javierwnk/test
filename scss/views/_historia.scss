@@ -2,8 +2,7 @@
     background-image: url(../img/historia.jpg);
 }
 .parrafoHistoria {
-    display: flex;
-    justify-content: center;
+    @extend .flex-center;
     padding: 200px 300px;
     font-size: 30px;
     font-weight: 700;
@@ -11,8 +10,7 @@
 }
 @media all and (max-width: 768px) {
     .parrafoHistoria {
-        display: flex;
-        justify-content: center;
+        @extend .flex-center;
         margin: 0 auto;
         font-size: 18px;
         padding: 10%;

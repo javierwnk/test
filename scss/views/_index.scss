@@ -101,38 +101,27 @@ main {
         margin: 70px 250px;
     }
     .bannerAcercaDe {
-        margin-top: 100px;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        text-align: center;
-        padding: 80px;
-        background-color: rgb(228, 239, 231);
-        border-top: solid 1px black;
-        border-bottom: solid 1px black;
+        @extend .flex-center;
+        @extend %estilosCajaAcercaDe;
     }
     .compraProductosDeCalidad {
-        padding: 10px;
-        width: 33%;
+        @extend .widthPaddingAcercaDe;
         font-size: $fuenteMediana;
     }
     .empresaFamiliar {
-        padding: 10px;
-        width: 33%;
+        @extend .widthPaddingAcercaDe;
         border-left: solid black 3px;
         border-right: solid black 3px;
         font-size: $fuenteMediana;
     }
     .nuestrosMediosDePago {
-        width: 33%;
-        padding: 10px;
+        @extend .widthPaddingAcercaDe;
         font-size: $fuenteMediana;
     }
     .clientesFelices {
         margin-top: 100px;
         height: 70px;
-        display: flex;
-        justify-content: center;
+        @extend .flex-center;
     }
     .tituloTestimonios {
         text-align: center;
@@ -156,12 +145,10 @@ main {
         height: 200px;
     }
     .cajasTestimonios {
-        display: flex;
-        justify-content: center;
+        @extend .flex-center;
     }
     .textosCajas {
-        display: flex;
-        justify-content: center;
+        @extend .flex-center;
         text-align: center;
     }
 }
@@ -191,8 +178,7 @@ footer {
         }
     }
     .textosCajasFooter {
-        display: flex;
-        justify-content: center;
+        @extend .flex-center;
         text-align: center;
     }
 }

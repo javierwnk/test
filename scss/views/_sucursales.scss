@@ -2,8 +2,7 @@
     background-image: url(../img/sucursales.jpg);
 }
 .cuadroSucursales {
-    display: flex;
-    justify-content: center;
+    @extend .flex-center;
     gap: 20px;
     padding: 80px 40px;
 }
@@ -11,8 +10,7 @@
     margin-bottom: 0px;
 }
 .card {
-    display: flex;
-    justify-content: center;
+    @extend .flex-center;
     text-align: center;
     align-items: center;
     list-style-type: none;
