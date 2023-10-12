@@ -1,0 +1,30 @@
+.imagenSucursales {
+    background-image: url(../img/sucursales.jpg);
+}
+.cuadroSucursales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 80px 40px;
+}
+.card-body {
+    margin-bottom: 0px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+}
+@media all and (max-width: 768px) {
+    .cuadroSucursales{
+        flex-direction: column;
+        padding: 80px 20px;
+        margin: 0 auto;
+    }
+    .card {
+        margin: 0 auto;
+        width: 90% !important;
+    }
+}

@@ -1,0 +1,15 @@
+.imagenPedidos {
+    background-image: url(../img/pedidos.jpg);
+}
+.tamanioImagenPedidos {
+    width: 400px;
+}
+.separacionImagenesProductos {
+    padding-top: 120px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 52px;
+    width: 70%;
+    margin: 0 auto;
+    } 
