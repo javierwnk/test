@@ -18,7 +18,7 @@ main {
         height: 400px;
     }
     .imagenMainHeader {
-        color: white;
+        color: $colorLetrasClaras;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;

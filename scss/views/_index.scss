@@ -14,7 +14,7 @@ header {
     }
     .linkPestania {
         text-decoration: none;
-        font-size: 20px;
+        font-size: $fuenteMediana;
         color: black;
     }
     .llama {
@@ -41,7 +41,7 @@ header {
             width: 100%;
             text-align: center;
             background-color: black;
-            color: white;
+            color: $colorLetrasClaras;
             }
         }
     }
@@ -114,19 +114,19 @@ main {
     .compraProductosDeCalidad {
         padding: 10px;
         width: 33%;
-        font-size: 20px;
+        font-size: $fuenteMediana;
     }
     .empresaFamiliar {
         padding: 10px;
         width: 33%;
         border-left: solid black 3px;
         border-right: solid black 3px;
-        font-size: 20px;
+        font-size: $fuenteMediana;
     }
     .nuestrosMediosDePago {
         width: 33%;
         padding: 10px;
-        font-size: 20px;
+        font-size: $fuenteMediana;
     }
     .clientesFelices {
         margin-top: 100px;
@@ -180,13 +180,13 @@ footer {
         font-weight: 600;
     }
     .propiedadesTextoFooter {
-        color: #FDFAF6;
+        color: $colorLetrasClaras;
     }
     div {
         a {
         font-size: 18px;
         font-weight: 600;
-        color: #FDFAF6;
+        color: $colorLetrasClaras;
         text-decoration: none;
         }
     }

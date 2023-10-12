@@ -105,7 +105,7 @@ header .navbar-brand {
 }
 header .linkPestania {
   text-decoration: none;
-  font-size: 20px;
+  font-size: font-size 20px;
   color: black;
 }
 header .llama {
@@ -199,19 +199,19 @@ main .bannerAcercaDe {
 main .compraProductosDeCalidad {
   padding: 10px;
   width: 33%;
-  font-size: 20px;
+  font-size: font-size 20px;
 }
 main .empresaFamiliar {
   padding: 10px;
   width: 33%;
   border-left: solid black 3px;
   border-right: solid black 3px;
-  font-size: 20px;
+  font-size: font-size 20px;
 }
 main .nuestrosMediosDePago {
   width: 33%;
   padding: 10px;
-  font-size: 20px;
+  font-size: font-size 20px;
 }
 main .clientesFelices {
   margin-top: 100px;
@@ -266,12 +266,12 @@ footer .encontranos {
   font-weight: 600;
 }
 footer .propiedadesTextoFooter {
-  color: #FDFAF6;
+  color: white;
 }
 footer div a {
   font-size: 18px;
   font-weight: 600;
-  color: #FDFAF6;
+  color: white;
   text-decoration: none;
 }
 footer .textosCajasFooter {
@@ -354,7 +354,7 @@ form {
   width: 500px;
   margin: 0 auto;
   padding: 64px 0;
-  font-size: 20px;
+  font-size: font-size 20px;
 }
 
 @media all and (max-width: 768px) {
