@@ -169,17 +169,14 @@ footer {
     .propiedadesTextoFooter {
         color: $colorLetrasClaras;
     }
-    div {
-        a {
+    .textosCajasFooter {
+        @extend .flex-center;
+        flex-flow: column wrap;
+        text-align: center;
         font-size: 18px;
         font-weight: 600;
         color: $colorLetrasClaras;
         text-decoration: none;
-        }
-    }
-    .textosCajasFooter {
-        @extend .flex-center;
-        text-align: center;
     }
 }
 @media all and (max-width: 768px) {

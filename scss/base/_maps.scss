@@ -1,5 +1,9 @@
-$negrita:(
-    intenso: font-weight 700,
-    medio: font-weight 600,
-    suave: font-weight 500
-)
+$testimonios: (1: 299px, 2: 350px, 3: 299px);
+
+@each $number, $ancho in $testimonios {
+    .testimonio_#{$number}:hover {
+        width: $ancho;
+        transition: 1s;
+        padding: 10px;
+    }
+}

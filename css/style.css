@@ -253,14 +253,13 @@ footer .encontranos {
 footer .propiedadesTextoFooter {
   color: white;
 }
-footer div a {
+footer .textosCajasFooter {
+  flex-flow: column wrap;
+  text-align: center;
   font-size: 18px;
   font-weight: 600;
   color: white;
   text-decoration: none;
-}
-footer .textosCajasFooter {
-  text-align: center;
 }
 
 @media all and (max-width: 768px) {
@@ -385,6 +384,23 @@ form {
     grid-template-columns: 1fr;
     width: 90%;
   }
+}
+.testimonio_1:hover {
+  width: 299px;
+  transition: 1s;
+  padding: 10px;
+}
+
+.testimonio_2:hover {
+  width: 350px;
+  transition: 1s;
+  padding: 10px;
+}
+
+.testimonio_3:hover {
+  width: 299px;
+  transition: 1s;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
