@@ -1,0 +1,6 @@
+@mixin form ($ancho,$margen,$relleno,$tamanioFuente){
+    width: $ancho;
+    margin: $margen;
+    padding: $relleno;
+    font-size: $tamanioFuente;
+}
