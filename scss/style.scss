@@ -1,12 +1,25 @@
+/* RESET */
+
+@import './layout/reset';
+
+/* BASE */
+
 @import './base/variables';
 @import './base/extend';
 @import './base/mixin';
 @import './base/generales';
+@import './base/maps';
+
+/*  VIEWS */
+
 @import './views/sucursales';
 @import './views/historia';
 @import './views/index';
 @import './views/rrhh';
 @import './views/pedidos';
-@import './base/maps';
+
+/* LAYOUT */
+
 @import './layout/header';
-@import './layout/footer'
+@import './layout/footer';
+@import './layout/ticker'

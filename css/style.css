@@ -1,3 +1,12 @@
+/* RESET */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BASE */
 .flex-center, footer .textosCajasFooter, main .textosCajas, main .cajasTestimonios, main .clientesFelices, main .bannerAcercaDe, .parrafoHistoria, .card, .cuadroSucursales, main .imagenMainHeader {
   display: flex;
   justify-content: center;
@@ -16,13 +25,6 @@ main .bannerAcercaDe {
   background-color: rgb(228, 239, 231);
   border-top: solid 1px black;
   border-bottom: solid 1px black;
-}
-
-* {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 main {
@@ -52,6 +54,25 @@ main .imagenMainHeader {
     font-size: 3rem;
   }
 }
+.testimonio_1:hover {
+  width: 299px;
+  transition: 1s;
+  padding: 10px;
+}
+
+.testimonio_2:hover {
+  width: 350px;
+  transition: 1s;
+  padding: 10px;
+}
+
+.testimonio_3:hover {
+  width: 299px;
+  transition: 1s;
+  padding: 10px;
+}
+
+/*  VIEWS */
 .imagenSucursales {
   background-image: url(../img/sucursales.jpg);
 }
@@ -103,7 +124,7 @@ main .imagenMainHeader {
 main {
   background-color: #FDFAF6;
 }
-main .imagenCuadroImaganes {
+main .imagenCuadroImagenes {
   width: 100%;
 }
 main .cuatroImagenes {
@@ -155,15 +176,15 @@ main .parrafoInspiracional {
   margin: 70px 250px;
 }
 main .compraProductosDeCalidad {
-  font-size: font-size 20px;
+  font-size: 20px;
 }
 main .empresaFamiliar {
   border-left: solid black 3px;
   border-right: solid black 3px;
-  font-size: font-size 20px;
+  font-size: 20px;
 }
 main .nuestrosMediosDePago {
-  font-size: font-size 20px;
+  font-size: 20px;
 }
 main .clientesFelices {
   margin-top: 100px;
@@ -208,7 +229,7 @@ main .textosCajas {
   main .cuatroImagenes {
     grid-template-areas: "imagenA" "imagenB" "imagenC" "imagenD";
   }
-  main .imagenCuadroImaganes {
+  main .imagenCuadroImagenes {
     width: 90%;
     margin: 0 auto;
     display: block;
@@ -260,7 +281,7 @@ form {
   width: 500px;
   margin: 0 auto;
   padding: 64px 0;
-  font-size: font-size 20px;
+  font-size: 20px;
 }
 
 @media all and (max-width: 768px) {
@@ -309,24 +330,7 @@ form {
     width: 90%;
   }
 }
-.testimonio_1:hover {
-  width: 299px;
-  transition: 1s;
-  padding: 10px;
-}
-
-.testimonio_2:hover {
-  width: 350px;
-  transition: 1s;
-  padding: 10px;
-}
-
-.testimonio_3:hover {
-  width: 299px;
-  transition: 1s;
-  padding: 10px;
-}
-
+/* LAYOUT */
 header .transparent-header {
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -342,11 +346,8 @@ header .navbar-brand {
 }
 header .linkPestania {
   text-decoration: none;
-  font-size: font-size 20px;
+  font-size: 20px;
   color: black;
-}
-header .llama {
-  margin: 0px 10px;
 }
 header p {
   margin: 0;
@@ -360,6 +361,13 @@ header nav ul h1 {
 header nav ul li {
   text-decoration: none;
   margin: 10px;
+}
+header nav ul .nav-link {
+  transition: 0.5s;
+}
+header nav ul .nav-link:hover {
+  color: rgb(7, 91, 42) !important;
+  font-weight: 700;
 }
 header section div p {
   width: 100%;
@@ -379,6 +387,10 @@ footer .logoWhatsapp {
   position: fixed;
   bottom: 100px;
   right: 30px;
+}
+footer .logoWhatsapp:hover {
+  transition: 0.5s;
+  transform: scale(1.25, 1.25);
 }
 footer .encontranos {
   font-weight: 600;
@@ -403,6 +415,75 @@ footer .textosCajasFooter {
   }
   .textosPrimerContenedorFooter {
     display: none;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.ticker-wrap {
+  width: 100%;
+  overflow: hidden;
+  height: 4rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-left: 100%;
+  box-sizing: content-box;
+}
+.ticker-wrap .ticker {
+  display: inline-block;
+  height: 4rem;
+  line-height: 4rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
+}
+.ticker-wrap .ticker__item {
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+@media all and (max-width: 768px) {
+  .ticker-wrap {
+    height: 3rem;
+  }
+  .ticker-wrap .ticker {
+    line-height: 3rem;
+    height: 3rem;
+  }
+  .ticker-wrap .ticker__item {
+    font-size: 1.1rem;
   }
 }
 

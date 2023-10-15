@@ -9,6 +9,10 @@ footer {
         bottom: 100px;
         right: 30px;
     }
+    .logoWhatsapp:hover {
+        transition: 0.5s;
+        transform: scale(1.25,1.25);
+    }
     .encontranos {
         font-weight: 600;
     }

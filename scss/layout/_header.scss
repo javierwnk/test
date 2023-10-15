@@ -17,9 +17,6 @@ header {
         font-size: $fuenteMediana;
         color: black;
     }
-    .llama {
-        margin: 0px 10px;
-    }
     p {
         margin: 0;
     }
@@ -31,6 +28,13 @@ header {
             li {
                 text-decoration: none;
                 margin: 10px;
+                }
+                .nav-link {
+                    transition: 0.5s;
+                }
+                .nav-link:hover {
+                    color: rgb(7, 91, 42) !important ;
+                    font-weight: 700;
                 }
         list-style-type: none;
         }
