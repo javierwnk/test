@@ -359,8 +359,32 @@ form {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 52px;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
+}
+
+.cardProducto {
+  text-align: center;
+  border: solid black 1px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  padding-bottom: 10px;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.cardProducto .botonCarrito {
+  padding: 5px;
+}
+
+.tamanioImagenPedidos {
+  width: 100%;
+}
+
+@media all and (max-width: 768px) {
+  .separacionImagenesProductos {
+    padding: 60px 0;
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
