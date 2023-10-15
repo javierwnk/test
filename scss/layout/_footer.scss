@@ -1,0 +1,37 @@
+footer {
+    background-color: rgb(6, 68, 32);
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    .logoWhatsapp {
+        position: fixed;
+        bottom: 100px;
+        right: 30px;
+    }
+    .encontranos {
+        font-weight: 600;
+    }
+    .propiedadesTextoFooter {
+        color: $colorLetrasClaras;
+    }
+    .textosCajasFooter {
+        @extend .flex-center;
+        flex-flow: column wrap;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        color: $colorLetrasClaras;
+        text-decoration: none;
+    }
+}
+@media all and (max-width: 768px) {
+    .footerElementos {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .textosPrimerContenedorFooter {
+        display: none;
+    }
+}

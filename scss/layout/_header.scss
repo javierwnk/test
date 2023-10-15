@@ -1,0 +1,48 @@
+header {
+    .transparent-header {
+        background-color: rgba(255, 255, 255, 0.5);
+        }
+    .logoPollito {
+        width: 60px;
+    }
+    .barraNavegacion {
+        background-color: rgb(250, 241, 230) !important;
+        text-decoration: none;
+    }
+    .navbar-brand {
+        margin: 0px 24px;
+    }
+    .linkPestania {
+        text-decoration: none;
+        font-size: $fuenteMediana;
+        color: black;
+    }
+    .llama {
+        margin: 0px 10px;
+    }
+    p {
+        margin: 0;
+    }
+    nav {
+        ul {
+            h1 {
+                display: none;
+            }
+            li {
+                text-decoration: none;
+                margin: 10px;
+                }
+        list-style-type: none;
+        }
+    }
+    section {
+        div {
+            p {
+            width: 100%;
+            text-align: center;
+            background-color: black;
+            color: $colorLetrasClaras;
+            }
+        }
+    }
+} 

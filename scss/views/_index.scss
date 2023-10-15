@@ -1,51 +1,3 @@
-header {
-    .transparent-header {
-        background-color: rgba(255, 255, 255, 0.5);
-        }
-    .logoPollito {
-        width: 60px;
-    }
-    .barraNavegacion {
-        background-color: rgb(250, 241, 230) !important;
-        text-decoration: none;
-    }
-    .navbar-brand {
-        margin: 0px 24px;
-    }
-    .linkPestania {
-        text-decoration: none;
-        font-size: $fuenteMediana;
-        color: black;
-    }
-    .llama {
-        margin: 0px 10px;
-    }
-    p {
-        margin: 0;
-    }
-    nav {
-        ul {
-            h1 {
-                display: none;
-            }
-            li {
-                text-decoration: none;
-                margin: 10px;
-                }
-        list-style-type: none;
-        }
-    }
-    section {
-        div {
-            p {
-            width: 100%;
-            text-align: center;
-            background-color: black;
-            color: $colorLetrasClaras;
-            }
-        }
-    }
-} 
 main {
     background-color: #FDFAF6;
     .imagenCuadroImaganes {
@@ -152,33 +104,6 @@ main {
         text-align: center;
     }
 }
-footer {
-    background-color: rgb(6, 68, 32);
-    padding: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    .logoWhatsapp {
-        position: fixed;
-        bottom: 100px;
-        right: 30px;
-    }
-    .encontranos {
-        font-weight: 600;
-    }
-    .propiedadesTextoFooter {
-        color: $colorLetrasClaras;
-    }
-    .textosCajasFooter {
-        @extend .flex-center;
-        flex-flow: column wrap;
-        text-align: center;
-        font-size: 18px;
-        font-weight: 600;
-        color: $colorLetrasClaras;
-        text-decoration: none;
-    }
-}
 @media all and (max-width: 768px) {
     main {
         padding-bottom: 0px;
@@ -240,13 +165,5 @@ footer {
             align-items: center;
             gap: 20px
         }
-    }
-    .footerElementos {
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-    }
-    .textosPrimerContenedorFooter {
-        display: none;
     }
 }

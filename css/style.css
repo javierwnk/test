@@ -100,47 +100,6 @@ main .imagenMainHeader {
     padding: 10%;
   }
 }
-header .transparent-header {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-header .logoPollito {
-  width: 60px;
-}
-header .barraNavegacion {
-  background-color: rgb(250, 241, 230) !important;
-  text-decoration: none;
-}
-header .navbar-brand {
-  margin: 0px 24px;
-}
-header .linkPestania {
-  text-decoration: none;
-  font-size: font-size 20px;
-  color: black;
-}
-header .llama {
-  margin: 0px 10px;
-}
-header p {
-  margin: 0;
-}
-header nav ul {
-  list-style-type: none;
-}
-header nav ul h1 {
-  display: none;
-}
-header nav ul li {
-  text-decoration: none;
-  margin: 10px;
-}
-header section div p {
-  width: 100%;
-  text-align: center;
-  background-color: black;
-  color: white;
-}
-
 main {
   background-color: #FDFAF6;
 }
@@ -235,33 +194,6 @@ main .textosCajas {
   text-align: center;
 }
 
-footer {
-  background-color: rgb(6, 68, 32);
-  padding: 30px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-}
-footer .logoWhatsapp {
-  position: fixed;
-  bottom: 100px;
-  right: 30px;
-}
-footer .encontranos {
-  font-weight: 600;
-}
-footer .propiedadesTextoFooter {
-  color: white;
-}
-footer .textosCajasFooter {
-  flex-flow: column wrap;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
-  text-decoration: none;
-}
-
 @media all and (max-width: 768px) {
   main {
     padding-bottom: 0px;
@@ -318,14 +250,6 @@ footer .textosCajasFooter {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-  }
-  .footerElementos {
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-  }
-  .textosPrimerContenedorFooter {
-    display: none;
   }
 }
 .imagenRrhh {
@@ -401,6 +325,85 @@ form {
   width: 299px;
   transition: 1s;
   padding: 10px;
+}
+
+header .transparent-header {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+header .logoPollito {
+  width: 60px;
+}
+header .barraNavegacion {
+  background-color: rgb(250, 241, 230) !important;
+  text-decoration: none;
+}
+header .navbar-brand {
+  margin: 0px 24px;
+}
+header .linkPestania {
+  text-decoration: none;
+  font-size: font-size 20px;
+  color: black;
+}
+header .llama {
+  margin: 0px 10px;
+}
+header p {
+  margin: 0;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul h1 {
+  display: none;
+}
+header nav ul li {
+  text-decoration: none;
+  margin: 10px;
+}
+header section div p {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+footer {
+  background-color: rgb(6, 68, 32);
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+footer .logoWhatsapp {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+}
+footer .encontranos {
+  font-weight: 600;
+}
+footer .propiedadesTextoFooter {
+  color: white;
+}
+footer .textosCajasFooter {
+  flex-flow: column wrap;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+@media all and (max-width: 768px) {
+  .footerElementos {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .textosPrimerContenedorFooter {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
