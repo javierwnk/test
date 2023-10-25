@@ -7,10 +7,10 @@ main {
         display: grid;
         grid-template-areas: "imagenA imagenB"
         "imagenC imagenD";
-        gap: 12px;
+        gap: 22px;
         justify-content: center;    
-        width: 95%;
-        margin: 0 auto;
+        width: 75%;
+        margin: 0 auto 170px;
     }
     .imagenA {
         grid-area: imagenA;
@@ -48,9 +48,10 @@ main {
     }
     .parrafoInspiracional {
         font-style: italic;
-        font-size: 1.3rem;
+        font-size: 2rem;
         text-align: center;
-        margin: 70px 250px;
+        margin: 170px 250px;
+        font-weight: 700;
     }
     .bannerAcercaDe {
         @extend .flex-center;
@@ -90,7 +91,6 @@ main {
         box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
         padding: 0 30px;
         transition: 1s;
-        
     }
     .cajasTestimonios2 {
         display: flex;

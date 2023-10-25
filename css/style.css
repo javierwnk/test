@@ -127,10 +127,10 @@ main .imagenCuadroImagenes {
 main .cuatroImagenes {
   display: grid;
   grid-template-areas: "imagenA imagenB" "imagenC imagenD";
-  gap: 12px;
+  gap: 22px;
   justify-content: center;
-  width: 95%;
-  margin: 0 auto;
+  width: 75%;
+  margin: 0 auto 170px;
 }
 main .imagenA {
   grid-area: imagenA;
@@ -168,9 +168,10 @@ main .imagenPortadaIndex {
 }
 main .parrafoInspiracional {
   font-style: italic;
-  font-size: 1.3rem;
+  font-size: 2rem;
   text-align: center;
-  margin: 70px 250px;
+  margin: 170px 250px;
+  font-weight: 700;
 }
 main .compraProductosDeCalidad {
   font-size: 20px;
