@@ -8,9 +8,9 @@ footer {
         position: fixed;
         bottom: 100px;
         right: 30px;
+        transition: 0.5s;
     }
     .logoWhatsapp:hover {
-        transition: 0.5s;
         transform: scale(1.25,1.25);
     }
     .encontranos {
