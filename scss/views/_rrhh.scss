@@ -1,8 +1,29 @@
-.imagenRrhh {
-    background-image: url(../img/rrhh.jpg);
+
+main {
+    .imagenRrhh {
+        background-image: url(../img/rrhh.jpg);
+    }
+.imagenMainHeader {    
+    position: relative;
+    z-index: 1;
+    &::before {
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.251);
+        z-index: -1;
+}
 }
 form {
     @include form(500px,0 auto,64px 0,$fuenteMediana);
+}
+.btn {
+    background-color: black;
+    border: black;
+}
 }
 @media all and (max-width: 768px) {
     form {

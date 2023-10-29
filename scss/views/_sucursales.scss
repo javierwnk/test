@@ -18,6 +18,10 @@
         background-color: black;
     }
 }
+.mapaSucursal {
+    border-top: solid 1px gray;
+}
+
 @media all and (max-width: 768px) {
     .cuadroSucursales{
         flex-direction: column;

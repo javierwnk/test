@@ -1,16 +1,40 @@
 .imagenHistoria {
     background-image: url(../img/historia.jpg);
 }
+.parrafoImagenesHistoria {
+    display: grid;
+    grid-template-areas: "parrafoHistoria imagen1"
+    "imagen2 imagen3";
+    justify-content: center;
+    width: 75%;
+    gap: 22px;
+    border: solid black 3px;
+}
 .parrafoHistoria {
-    @extend .flex-center;
-    padding: 200px 300px;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 1.3rem;
+    font-weight: 600;
     font-style: italic;
+    margin: 0 auto;
+    justify-content: center;
+    width: 450px;
+}
+.parrafoHistoria {
+    grid-area: parrafoHistoria;
+}
+.imagen1 {
+    grid-area: imagen1;
+}
+.imagen2 {
+    grid-area: imagen2;
+}
+.imagen3 {
+    grid-area: imagen3;
+}
+.imagenHistoria {
+    width: 30px;
 }
 @media all and (max-width: 768px) {
     .parrafoHistoria {
-        @extend .flex-center;
         margin: 0 auto;
         font-size: 18px;
         padding: 10%;
