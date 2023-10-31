@@ -116,12 +116,15 @@ main {
         .parrafoInspiracional {
             margin: 70px auto;
             width: 90%;
+            font-size: 1.2rem;
         }
         .cuatroImagenes {
             grid-template-areas: "imagenA"
             "imagenB"
             "imagenC"
             "imagenD";
+            margin: 70px auto;
+            width: 90%;
         }
         .imagenCuadroImagenes {
             width: 90%;
@@ -131,8 +134,8 @@ main {
         .textoAhorra {
             top: -90px;
             margin: 0 auto;
-            font-size: 18px;
-            height: 70px;
+            font-size: 24px;
+            height: 90px;
             width: 90%;
             position: relative;
         }

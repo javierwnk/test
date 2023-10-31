@@ -1,32 +1,51 @@
-
 main {
+    .parrafoRrhh {
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-style: italic;
+            text-align: center;
+            margin: 64px 0 0 0;
+        }
+    }
+
     .imagenRrhh {
         background-image: url(../img/rrhh.jpg);
     }
-.imagenMainHeader {    
-    position: relative;
-    z-index: 1;
-    &::before {
-        content: "";
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.251);
-        z-index: -1;
-}
-}
-form {
-    @include form(500px,0 auto,64px 0,$fuenteMediana);
-}
-.btn {
-    background-color: black;
-    border: black;
-}
-}
-@media all and (max-width: 768px) {
+
+    .imagenMainHeader {
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            content: "";
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.251);
+            z-index: -1;
+        }
+    }
+
     form {
+        @include form(500px, 0 auto, 64px 0, $fuenteMediana);
+    }
+
+    .btn {
+        background-color: black;
+        border: black;
+    }
+
+
+@media all and (max-width: 768px) {
+    .parrafoRrhh {
+        margin: 0 auto;
+    }
+    main form {
         width: 90%;
+        .aviso {
+            font-size: 0.9rem;
+        }
     }
 }
