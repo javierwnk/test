@@ -20,9 +20,10 @@
 }
 .mapaSucursal {
     border-top: solid 1px gray;
+    width: 100%;
     .googleMaps {
-        width: 558px;
         height: 263.93px;
+        width: 100%;
     }
 }
 
@@ -32,16 +33,14 @@
         padding: 80px 20px;
         margin: 0 auto;
         div {
-            .card-img-top {
-                height: 180px;
-            }
-        }
-        div {
             .googleMaps {
                 width: 100%;
                 height: 180px;
             }
         }
+    }
+    .mapaSucursal {
+        width: 100%;
     }
     
     .card {
