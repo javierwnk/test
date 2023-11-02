@@ -517,6 +517,9 @@ form {
   }
 }
 /* LAYOUT */
+header .ticker {
+  animation-duration: 13s !important;
+}
 header .transparent-header {
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -573,9 +576,12 @@ footer {
 }
 footer .logoWhatsapp {
   position: fixed;
-  bottom: 100px;
-  right: 30px;
+  bottom: 40px;
+  right: 55px;
   transition: 0.5s;
+  height: 100px;
+  width: 100px;
+  z-index: 1;
 }
 footer .logoWhatsapp:hover {
   transform: scale(1.25, 1.25);
@@ -603,6 +609,11 @@ footer .textosCajasFooter {
   }
   .textosPrimerContenedorFooter {
     display: none;
+  }
+  .logoWhatsapp {
+    height: 50px !important;
+    width: 50px !important;
+    right: 25px !important;
   }
 }
 * {
