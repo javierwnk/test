@@ -7,7 +7,7 @@
 }
 
 /* BASE */
-.flex-center, footer .textosCajasFooter, main .textosCajas, main .clientesFelices, main .bannerAcercaDe, .card, .cuadroSucursales, .parrafoPedidos, main .imagenMainHeader {
+.flex-center, footer .textosCajasFooter, main .textosCajas, main .cajasTestimonios, main .clientesFelices, main .bannerAcercaDe, .card, .cuadroSucursales, .parrafoPedidos, main .imagenMainHeader {
   display: flex;
   justify-content: center;
 }

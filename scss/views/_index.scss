@@ -117,7 +117,9 @@ main {
         width: 70%;
         height: 200px;
     }
-
+    .cajasTestimonios {
+        @extend .flex-center;
+    }
     .textosCajas {
         @extend .flex-center;
         text-align: center;
