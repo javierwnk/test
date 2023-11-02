@@ -7,7 +7,7 @@
 }
 
 /* BASE */
-.flex-center, footer .textosCajasFooter, main .textosCajas, main .cajasTestimonios, main .clientesFelices, main .bannerAcercaDe, .card, .cuadroSucursales, .parrafoPedidos, main .imagenMainHeader {
+.flex-center, footer .textosCajasFooter, main .textosCajas, main .clientesFelices, main .bannerAcercaDe, .card, .cuadroSucursales, .parrafoPedidos, main .imagenMainHeader {
   display: flex;
   justify-content: center;
 }
@@ -204,30 +204,16 @@ main .imagenMainHeader {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .parrafoHistoria1 p, .parrafoHistoria2 p {
+  .parrafoHistoria1 p,
+  .parrafoHistoria2 p {
     font-size: 0.75rem;
     margin: 0 auto;
   }
-  .parrafoHistoria1 {
-    width: 300px;
-    height: 233.33px;
-  }
-  .imagen1 {
-    width: 300px;
-    height: 233.33px;
-  }
-  .imagen2 {
-    width: 300px;
-    height: 233.33px;
-  }
-  .imagen3 {
-    width: 300px;
-    height: 233.33px;
-  }
-  .imagen4 {
-    width: 300px;
-    height: 233.33px;
-  }
+  .parrafoHistoria1,
+  .imagen1,
+  .imagen2,
+  .imagen3,
+  .imagen4,
   .parrafoHistoria2 {
     width: 300px;
     height: 233.33px;
@@ -376,7 +362,9 @@ main .textosCajas {
     padding: 10%;
     row-gap: 18px;
   }
-  main .compraProductosDeCalidad, main .empresaFamiliar, main .nuestrosMediosDePago {
+  main .compraProductosDeCalidad,
+  main .empresaFamiliar,
+  main .nuestrosMediosDePago {
     width: 100%;
   }
   main .empresaFamiliar {

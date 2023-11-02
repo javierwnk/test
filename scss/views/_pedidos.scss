@@ -6,17 +6,21 @@
     font-weight: 600;
     font-style: italic;
 }
+
 .tituloCard {
-    padding-top: 10px ;
+    padding-top: 10px;
     font-size: 1.2rem;
     font-weight: 700;
 }
+
 .imagenPedidos {
     background-image: url(../img/pedidos.jpg);
 }
+
 .tamanioImagenPedidos {
     width: 400px;
 }
+
 .separacionImagenesProductos {
     padding-top: 120px;
     padding-bottom: 20px;
@@ -25,7 +29,8 @@
     gap: 52px;
     width: 90%;
     margin: 0 auto;
-    } 
+}
+
 .cardProducto {
     text-align: center;
     border: solid black 1px;
@@ -33,30 +38,35 @@
     border-bottom-right-radius: 13px;
     padding-bottom: 10px;
     box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+
     .botonCarrito {
         padding: 8px 20px;
         background-color: black;
         color: white;
         border: 1px solid black;
         border-radius: 5px;
-        
+
     }
-    
+
 }
+
 .tamanioImagenPedidos {
     width: 100%;
 }
-@media all and (max-width: 768px){
-.separacionImagenesProductos {
-    padding: 60px 0;
-    grid-template-columns: 1fr;
-    width: 90%;
-}
-.parrafoPedidos {
-    padding: 76px 20px 0px;
-    font-size: 1rem;
-}
-.tituloCard {
-    padding: 20px;
-}
+
+@media all and (max-width: 768px) {
+    .separacionImagenesProductos {
+        padding: 60px 0;
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .parrafoPedidos {
+        padding: 76px 20px 0px;
+        font-size: 1rem;
+    }
+
+    .tituloCard {
+        padding: 20px;
+    }
 }

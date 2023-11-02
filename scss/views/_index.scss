@@ -1,33 +1,41 @@
 main {
     background-color: #FDFAF6;
+
     .imagenCuadroImagenes {
         width: 100%;
     }
+
     .cuatroImagenes {
         display: grid;
         grid-template-areas: "imagenA imagenB"
-        "imagenC imagenD";
+            "imagenC imagenD";
         gap: 22px;
-        justify-content: center;    
+        justify-content: center;
         width: 75%;
         margin: 0 auto 170px;
     }
+
     .imagenA {
         grid-area: imagenA;
     }
+
     .imagenB {
         grid-area: imagenB;
     }
+
     .imagenC {
         grid-area: imagenC;
     }
+
     .imagenD {
         grid-area: imagenD;
         position: relative;
     }
+
     .imagenD a {
         text-decoration: none;
     }
+
     .textoAhorra {
         position: absolute;
         bottom: 0px;
@@ -38,6 +46,7 @@ main {
         width: 100%;
         color: black;
     }
+
     .imagenPortadaIndex {
         background-image: url(../img/nuevaportada.png);
         width: 100%;
@@ -46,6 +55,7 @@ main {
         background-repeat: no-repeat;
         height: 650px;
     }
+
     .parrafoInspiracional {
         font-style: italic;
         font-size: 2rem;
@@ -53,32 +63,39 @@ main {
         margin: 170px 250px;
         font-weight: 700;
     }
+
     .bannerAcercaDe {
         @extend .flex-center;
         @extend %estilosCajaAcercaDe;
     }
+
     .compraProductosDeCalidad {
         @extend .widthPaddingAcercaDe;
         font-size: $fuenteMediana;
     }
+
     .empresaFamiliar {
         @extend .widthPaddingAcercaDe;
         border-left: solid black 3px;
         border-right: solid black 3px;
         font-size: $fuenteMediana;
     }
+
     .nuestrosMediosDePago {
         @extend .widthPaddingAcercaDe;
         font-size: $fuenteMediana;
     }
+
     .clientesFelices {
         margin-top: 100px;
         height: 70px;
         @extend .flex-center;
     }
+
     .tituloTestimonios {
         text-align: center;
     }
+
     .cajaTestimonio {
         display: flex;
         width: 290px;
@@ -92,6 +109,7 @@ main {
         padding: 0 30px;
         transition: 1s;
     }
+
     .cajasTestimonios2 {
         display: flex;
         justify-content: space-around;
@@ -99,38 +117,42 @@ main {
         width: 70%;
         height: 200px;
     }
-    .cajasTestimonios {
-        @extend .flex-center;
-    }
+
     .textosCajas {
         @extend .flex-center;
         text-align: center;
     }
 }
+
 @media all and (max-width: 768px) {
     main {
         padding-bottom: 0px;
+
         .imagenPortadaIndex {
             height: 320px;
         }
+
         .parrafoInspiracional {
             margin: 70px auto;
             width: 90%;
             font-size: 1.2rem;
         }
+
         .cuatroImagenes {
             grid-template-areas: "imagenA"
-            "imagenB"
-            "imagenC"
-            "imagenD";
+                "imagenB"
+                "imagenC"
+                "imagenD";
             margin: 70px auto;
             width: 90%;
         }
+
         .imagenCuadroImagenes {
             width: 90%;
             margin: 0 auto;
             display: block;
         }
+
         .textoAhorra {
             top: -90px;
             margin: 0 auto;
@@ -139,6 +161,7 @@ main {
             width: 90%;
             position: relative;
         }
+
         .bannerAcercaDe {
             margin-top: 0;
             flex-direction: column;
@@ -146,9 +169,13 @@ main {
             padding: 10%;
             row-gap: 18px;
         }
-        .compraProductosDeCalidad, .empresaFamiliar, .nuestrosMediosDePago {
+
+        .compraProductosDeCalidad,
+        .empresaFamiliar,
+        .nuestrosMediosDePago {
             width: 100%;
         }
+
         .empresaFamiliar {
             border-left: 0;
             border-right: 0;
@@ -156,14 +183,17 @@ main {
             border-bottom: solid black 3px;
             padding: 18px;
         }
+
         .bannerAcercaDe {
             p {
-            margin: 0;
+                margin: 0;
             }
         }
+
         .cajasTestimonios {
             height: 520px;
         }
+
         .cajasTestimonios2 {
             flex-direction: column;
             display: flex;

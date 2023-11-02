@@ -1,26 +1,32 @@
 .imagenSucursales {
     background-image: url(../img/sucursales.jpg);
 }
+
 .cuadroSucursales {
     @extend .flex-center;
     gap: 20px;
     padding: 80px 40px;
 }
+
 .card-body {
     margin-bottom: 0px;
 }
+
 .card {
     @extend .flex-center;
     text-align: center;
     align-items: center;
     list-style-type: none;
+
     .btn-primary {
         background-color: black;
     }
 }
+
 .mapaSucursal {
     border-top: solid 1px gray;
     width: 100%;
+
     .googleMaps {
         height: 263.93px;
         width: 100%;
@@ -28,10 +34,11 @@
 }
 
 @media all and (max-width: 771px) {
-    .cuadroSucursales{
+    .cuadroSucursales {
         flex-direction: column;
         padding: 80px 20px;
         margin: 0 auto;
+
         div {
             .googleMaps {
                 width: 100%;
@@ -39,18 +46,20 @@
             }
         }
     }
+
     .mapaSucursal {
         width: 100%;
     }
-    
+
     .card {
         margin: 0 auto;
         width: 90% !important;
     }
 }
+
 @media all and (min-width: 590px) and (max-width: 770px) {
-.card-img-top {
-    height: 100%;
-    width: 100%;
-}
+    .card-img-top {
+        height: 100%;
+        width: 100%;
+    }
 }
